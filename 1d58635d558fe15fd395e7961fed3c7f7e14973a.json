@@ -1,0 +1,87 @@
+{
+  "where": "body",
+  "childIndex": "first",
+  "adv": [
+    {
+      "type": "popunder",
+      "src": "//quietlybananasmarvel.com/68/b0/9d/68b09de3ff1fd3ee724fb42e836d4b62.js",
+      "click": true,
+      "wait": 0.1
+    },
+    {
+      "type": "socialbar",
+      "src": "//quietlybananasmarvel.com/36/60/2e/36602ef659322538ca119b04cc33d90d.js",
+      "click": true,
+      "wait": 0.1
+    },
+    {
+      "type": "bottom",
+      "src": "//quietlybananasmarvel.com/27be1a197df6dba5e67416a8cc80bb09/invoke.js",
+      "params": "atOptions={'key':'27be1a197df6dba5e67416a8cc80bb09','format':'iframe','height':90,'width':728,'params':{}};",
+      "style": "position:fixed;z-index:9999;bottom:0;left:50%;transform:translate(-50%,0);opacity:0;",
+      "hideScrollDown": true,
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "left",
+      "src": "//quietlybananasmarvel.com/21f08a59ed7a79d22cc4afe90cfd0490/invoke.js",
+      "params": "atOptions={'key':'21f08a59ed7a79d22cc4afe90cfd0490','format':'iframe','height':600,'width':160,'params':{}};",
+      "style": "position:fixed;z-index:9999;left:0;top:50%;transform:translate(0,-50%);opacity:0;",
+      "nine60": true,
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "right",
+      "src": "//quietlybananasmarvel.com/23abb15753d4eb79b8317984e6b2989d/invoke.js",
+      "params": "atOptions={'key':'23abb15753d4eb79b8317984e6b2989d','format':'iframe','height':300,'width':160,'params':{}};",
+      "style": "position:fixed;z-index:9999;right:0;top:50%;transform:translate(0,-50%);opacity:0;",
+      "nine60": true,
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner1",
+      "src": "//quietlybananasmarvel.com/9f9c4808d27312621fde84ab0dca843b/invoke.js",
+      "params": "atOptions={'key':'9f9c4808d27312621fde84ab0dca843b','format':'iframe','height':250,'width':300,'params':{}};",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;opacity:0;height:0;",
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner2",
+      "src": "//quietlybananasmarvel.com/aa16d8ae8a0b24cd8b5ba17013537b4e/invoke.js",
+      "params": "atOptions={'key':'aa16d8ae8a0b24cd8b5ba17013537b4e','format':'iframe','height':50,'width':320,'params':{}};",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;opacity:0;height:0;",
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner3",
+      "src": "//quietlybananasmarvel.com/9f1609df8173e357dfc02d4e0fe40448/invoke.js",
+      "params": "atOptions={'key':'9f1609df8173e357dfc02d4e0fe40448','format':'iframe','height':60,'width':468,'params':{}};",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;opacity:0;height:0;",
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner5",
+      "src": "//quietlybananasmarvel.com/230acd705e09f41e176354df29bec60b/invoke.js",
+      "key": "230acd705e09f41e176354df29bec60b",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;opacity:0;height:0;",
+      "click": true,
+      "wait": 10
+    }
+  ],
+  "excludes": [
+    "/newad/"
+  ],
+  "excludeType": "include",
+  "maxClick": 999,
+  "refresh": 120,
+  "styles": "iframe[id^=container-]{opacity:0!important;}",
+  "allowUserHideAdv": true,
+  "enableDevtools": true,
+  "allowRightClick": true
+}

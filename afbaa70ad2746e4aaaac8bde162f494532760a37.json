@@ -1,0 +1,83 @@
+{
+  "where": "s4m3w1th5cr1pt",
+  "childIndex": "first",
+  "adv": [
+    {
+      "type": "popunder",
+      "src": "//losswitchrancid.com/d2/86/a3/d286a3a13d4abcc721b70a6423456245.js",
+      "click": true,
+      "wait": 0.1
+    },
+    {
+      "type": "socialbar",
+      "src": "//losswitchrancid.com/42/98/c4/4298c419971dd6ec1073da6e3fe696e7.js",
+      "click": true,
+      "wait": 0.1
+    },
+    {
+      "type": "bottom",
+      "src": "//losswitchrancid.com/c4901fdda724d906217c1b16319bb62c/invoke.js",
+      "params": "atOptions={'key':'c4901fdda724d906217c1b16319bb62c','format':'iframe','height':90,'width':728,'params':{}};",
+      "style": "position:fixed;z-index:9999;bottom:0;left:50%;transform:translate(-50%,0);opacity:0;",
+      "hideScrollDown": true,
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "left",
+      "src": "//losswitchrancid.com/a94aa7caa32d087b1dd5a0198e383c8d/invoke.js",
+      "params": "atOptions={'key':'a94aa7caa32d087b1dd5a0198e383c8d','format':'iframe','height':600,'width':160,'params':{}};",
+      "style": "position:fixed;z-index:9999;left:0;top:50%;transform:translate(0,-50%);opacity:0;",
+      "nine60": true,
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "right",
+      "src": "//losswitchrancid.com/a1ff02a8a7b21598da010730c855ebd6/invoke.js",
+      "params": "atOptions={'key':'a1ff02a8a7b21598da010730c855ebd6','format':'iframe','height':300,'width':160,'params':{}};",
+      "style": "position:fixed;z-index:9999;right:0;top:50%;transform:translate(0,-50%);opacity:0;",
+      "nine60": true,
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner1",
+      "src": "//losswitchrancid.com/ac476ee06a4161f7483e572fc89ce6a0/invoke.js",
+      "params": "atOptions={'key':'ac476ee06a4161f7483e572fc89ce6a0','format':'iframe','height':250,'width':300,'params':{}};",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;",
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner2",
+      "src": "//losswitchrancid.com/2f6cd2957ef5fc7e2768e12b25ea61d1/invoke.js",
+      "params": "atOptions={'key':'2f6cd2957ef5fc7e2768e12b25ea61d1','format':'iframe','height':50,'width':320,'params':{}};",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;",
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner3",
+      "src": "//losswitchrancid.com/aeb86fa461c4d610806b4ca1587326e2/invoke.js",
+      "params": "atOptions={'key':'aeb86fa461c4d610806b4ca1587326e2','format':'iframe','height':60,'width':468,'params':{}};",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;",
+      "click": true,
+      "wait": 10
+    },
+    {
+      "type": "banner5",
+      "src": "//losswitchrancid.com/202908da8d28b5796b194c96abe14d65/invoke.js",
+      "key": "202908da8d28b5796b194c96abe14d65",
+      "style": "display:block;width:100%;text-align:center;overflow:hidden;",
+      "click": true,
+      "wait": 10
+    }
+  ],
+  "maxClick": 999,
+  "refresh": 120,
+  "styles": "iframe[id^=container-]{opacity:0!important;}",
+  "allowUserHideAdv": true,
+  "enableDevtools": true,
+  "allowRightClick": true
+}
